@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="tabulamcexporter"
+version="${file.jarVersion}"
+displayName="Tabula 1.18 Exporter"
+authors="Chappie"
+
+[[dependencies.tabulamcexporter]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tabulamcexporter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tabulamcexporter]]
+    modId="ichunutil"
+    mandatory=true
+    versionRange="[10.5.1,11)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tabulamcexporter]]
+    modId="tabula"
+    mandatory=true
+    versionRange="[10.5.1,11)"
+    ordering="NONE"
+    side="BOTH"
